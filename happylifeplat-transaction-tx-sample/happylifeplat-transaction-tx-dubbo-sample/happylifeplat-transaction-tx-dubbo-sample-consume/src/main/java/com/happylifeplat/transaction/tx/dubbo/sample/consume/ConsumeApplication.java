@@ -9,10 +9,9 @@ import org.springframework.context.annotation.ImportResource;
 @ImportResource({"classpath:applicationContext.xml"})
 @MapperScan("com.happylifeplat.transaction.tx.dubbo.sample.consume.mapper")
 public class ConsumeApplication {
+
     public static void main(String[] args) {
         SpringApplication.run(ConsumeApplication.class, args);
     }
-
-
 
 }
